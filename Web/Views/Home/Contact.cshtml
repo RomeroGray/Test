@@ -1,0 +1,1574 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<div class="post fs-6 d-flex flex-column-fluid" id="kt_post">
+    <div class="container-xxl">
+
+        <div class="py-10">
+            <!--begin::Heading-->
+            <h1 class="anchor fw-bold mb-5" id="vertical-scroll" data-kt-scroll-offset="50">
+                <a href="#vertical-scroll"></a>Vertical Scroll
+            </h1>
+            <div class="my-5 border rounded">
+                <div id="kt_datatable_vertical_scroll_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                    <div class="table-responsive">
+                        <div class="dataTables_scroll">
+                            <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;">
+                                <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 929.75px; padding-right: 8px;">
+                                    <table class="table table-striped gy-5 gs-7 dataTable" style="margin-left: 0px; width: 929.75px;">
+                                        <thead>
+                                            <tr class="fw-semibold fs-6 text-gray-800">
+                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 179.667px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 257.317px;" aria-label="Position: activate to sort column ascending">Position</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 133.9px;" aria-label="Office: activate to sort column ascending">Office</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 49.1667px;" aria-label="Age: activate to sort column ascending">Age</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 111.117px;" aria-label="Start date: activate to sort column ascending">Start date</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 104.333px;" aria-label="Salary: activate to sort column ascending">Salary</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="dataTables_scrollBody" style="position: relative; overflow: auto; max-height: 500px; width: 100%;">
+                                <table id="kt_datatable_vertical_scroll" class="table table-striped gy-5 gs-7 dataTable" style="width: 100%;">
+                                    <thead>
+                                        <tr class="fw-semibold fs-6 text-gray-800" style="height: 0px;">
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 179.667px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></th>
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 257.317px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th>
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 133.9px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th>
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 49.1667px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th>
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 111.117px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th>
+                                            <th class="sorting" aria-controls="kt_datatable_vertical_scroll" rowspan="1" colspan="1" style="width: 104.333px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr class="border-top fw-semibold fs-6 text-gray-800" style="height: 1px;"><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 169.917px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 247.567px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 124.15px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 39.4167px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 101.367px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 104.333px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th></tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Airi Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td>$162,700</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Angelica Ramos</td>
+                                            <td>Chief Executive Officer (CEO)</td>
+                                            <td>London</td>
+                                            <td>47</td>
+                                            <td>2009/10/09</td>
+                                            <td>$1,200,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Ashton Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009/01/12</td>
+                                            <td>$86,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Bradley Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td>41</td>
+                                            <td>2012/10/13</td>
+                                            <td>$132,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Brenden Wagner</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>28</td>
+                                            <td>2011/06/07</td>
+                                            <td>$206,850</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Brielle Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012/12/02</td>
+                                            <td>$372,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Bruno Nash</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td>38</td>
+                                            <td>2011/05/03</td>
+                                            <td>$163,500</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Caesar Vance</td>
+                                            <td>Pre-Sales Support</td>
+                                            <td>New York</td>
+                                            <td>21</td>
+                                            <td>2011/12/12</td>
+                                            <td>$106,450</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Cara Stevens</td>
+                                            <td>Sales Assistant</td>
+                                            <td>New York</td>
+                                            <td>46</td>
+                                            <td>2011/12/06</td>
+                                            <td>$145,600</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Cedric Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012/03/29</td>
+                                            <td>$433,060</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Charde Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008/10/16</td>
+                                            <td>$470,600</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Colleen Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009/09/15</td>
+                                            <td>$205,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Dai Rios</td>
+                                            <td>Personnel Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td>35</td>
+                                            <td>2012/09/26</td>
+                                            <td>$217,500</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Donna Snider</td>
+                                            <td>Customer Support</td>
+                                            <td>New York</td>
+                                            <td>27</td>
+                                            <td>2011/01/25</td>
+                                            <td>$112,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Doris Wilder</td>
+                                            <td>Sales Assistant</td>
+                                            <td>Sydney</td>
+                                            <td>23</td>
+                                            <td>2010/09/20</td>
+                                            <td>$85,600</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Finn Camacho</td>
+                                            <td>Support Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>47</td>
+                                            <td>2009/07/07</td>
+                                            <td>$87,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Fiona Green</td>
+                                            <td>Chief Operating Officer (COO)</td>
+                                            <td>San Francisco</td>
+                                            <td>48</td>
+                                            <td>2010/03/11</td>
+                                            <td>$850,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Garrett Winters</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>63</td>
+                                            <td>2011/07/25</td>
+                                            <td>$170,750</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Gavin Cortez</td>
+                                            <td>Team Leader</td>
+                                            <td>San Francisco</td>
+                                            <td>22</td>
+                                            <td>2008/10/26</td>
+                                            <td>$235,500</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Gavin Joyce</td>
+                                            <td>Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>42</td>
+                                            <td>2010/12/22</td>
+                                            <td>$92,575</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Gloria Little</td>
+                                            <td>Systems Administrator</td>
+                                            <td>New York</td>
+                                            <td>59</td>
+                                            <td>2009/04/10</td>
+                                            <td>$237,500</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Haley Kennedy</td>
+                                            <td>Senior Marketing Designer</td>
+                                            <td>London</td>
+                                            <td>43</td>
+                                            <td>2012/12/18</td>
+                                            <td>$313,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Hermione Butler</td>
+                                            <td>Regional Director</td>
+                                            <td>London</td>
+                                            <td>47</td>
+                                            <td>2011/03/21</td>
+                                            <td>$356,250</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Herrod Chandler</td>
+                                            <td>Sales Assistant</td>
+                                            <td>San Francisco</td>
+                                            <td>59</td>
+                                            <td>2012/08/06</td>
+                                            <td>$137,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Hope Fuentes</td>
+                                            <td>Secretary</td>
+                                            <td>San Francisco</td>
+                                            <td>41</td>
+                                            <td>2010/02/12</td>
+                                            <td>$109,850</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Howard Hatfield</td>
+                                            <td>Office Manager</td>
+                                            <td>San Francisco</td>
+                                            <td>51</td>
+                                            <td>2008/12/16</td>
+                                            <td>$164,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Jackson Bradshaw</td>
+                                            <td>Director</td>
+                                            <td>New York</td>
+                                            <td>65</td>
+                                            <td>2008/09/26</td>
+                                            <td>$645,750</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Jena Gaines</td>
+                                            <td>Office Manager</td>
+                                            <td>London</td>
+                                            <td>30</td>
+                                            <td>2008/12/19</td>
+                                            <td>$90,560</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Jenette Caldwell</td>
+                                            <td>Development Lead</td>
+                                            <td>New York</td>
+                                            <td>30</td>
+                                            <td>2011/09/03</td>
+                                            <td>$345,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Jennifer Acosta</td>
+                                            <td>Junior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>43</td>
+                                            <td>2013/02/01</td>
+                                            <td>$75,650</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Jennifer Chang</td>
+                                            <td>Regional Director</td>
+                                            <td>Singapore</td>
+                                            <td>28</td>
+                                            <td>2010/11/14</td>
+                                            <td>$357,650</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Jonas Alexander</td>
+                                            <td>Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>30</td>
+                                            <td>2010/07/14</td>
+                                            <td>$86,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Lael Greer</td>
+                                            <td>Systems Administrator</td>
+                                            <td>London</td>
+                                            <td>21</td>
+                                            <td>2009/02/27</td>
+                                            <td>$103,500</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Martena Mccray</td>
+                                            <td>Post-Sales support</td>
+                                            <td>Edinburgh</td>
+                                            <td>46</td>
+                                            <td>2011/03/09</td>
+                                            <td>$324,050</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Michael Bruce</td>
+                                            <td>Javascript Developer</td>
+                                            <td>Singapore</td>
+                                            <td>29</td>
+                                            <td>2011/06/27</td>
+                                            <td>$183,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Michael Silva</td>
+                                            <td>Marketing Designer</td>
+                                            <td>London</td>
+                                            <td>66</td>
+                                            <td>2012/11/27</td>
+                                            <td>$198,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Michelle House</td>
+                                            <td>Integration Specialist</td>
+                                            <td>Sydney</td>
+                                            <td>37</td>
+                                            <td>2011/06/02</td>
+                                            <td>$95,400</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Olivia Liang</td>
+                                            <td>Support Engineer</td>
+                                            <td>Singapore</td>
+                                            <td>64</td>
+                                            <td>2011/02/03</td>
+                                            <td>$234,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Paul Byrd</td>
+                                            <td>Chief Financial Officer (CFO)</td>
+                                            <td>New York</td>
+                                            <td>64</td>
+                                            <td>2010/06/09</td>
+                                            <td>$725,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Prescott Bartlett</td>
+                                            <td>Technical Author</td>
+                                            <td>London</td>
+                                            <td>27</td>
+                                            <td>2011/05/07</td>
+                                            <td>$145,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Quinn Flynn</td>
+                                            <td>Support Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2013/03/03</td>
+                                            <td>$342,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Rhona Davidson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>Tokyo</td>
+                                            <td>55</td>
+                                            <td>2010/10/14</td>
+                                            <td>$327,900</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Sakura Yamamoto</td>
+                                            <td>Support Engineer</td>
+                                            <td>Tokyo</td>
+                                            <td>37</td>
+                                            <td>2009/08/19</td>
+                                            <td>$139,575</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Serge Baldwin</td>
+                                            <td>Data Coordinator</td>
+                                            <td>Singapore</td>
+                                            <td>64</td>
+                                            <td>2012/04/09</td>
+                                            <td>$138,575</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Shad Decker</td>
+                                            <td>Regional Director</td>
+                                            <td>Edinburgh</td>
+                                            <td>51</td>
+                                            <td>2008/11/13</td>
+                                            <td>$183,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Shou Itou</td>
+                                            <td>Regional Marketing</td>
+                                            <td>Tokyo</td>
+                                            <td>20</td>
+                                            <td>2011/08/14</td>
+                                            <td>$163,000</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Sonya Frost</td>
+                                            <td>Software Engineer</td>
+                                            <td>Edinburgh</td>
+                                            <td>23</td>
+                                            <td>2008/12/13</td>
+                                            <td>$103,600</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Suki Burks</td>
+                                            <td>Developer</td>
+                                            <td>London</td>
+                                            <td>53</td>
+                                            <td>2009/10/22</td>
+                                            <td>$114,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Tatyana Fitzpatrick</td>
+                                            <td>Regional Director</td>
+                                            <td>London</td>
+                                            <td>19</td>
+                                            <td>2010/03/17</td>
+                                            <td>$385,750</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Thor Walton</td>
+                                            <td>Developer</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2013/08/11</td>
+                                            <td>$98,540</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Timothy Mooney</td>
+                                            <td>Office Manager</td>
+                                            <td>London</td>
+                                            <td>37</td>
+                                            <td>2008/12/11</td>
+                                            <td>$136,200</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Unity Butler</td>
+                                            <td>Marketing Designer</td>
+                                            <td>San Francisco</td>
+                                            <td>47</td>
+                                            <td>2009/12/09</td>
+                                            <td>$85,675</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Vivian Harrell</td>
+                                            <td>Financial Controller</td>
+                                            <td>San Francisco</td>
+                                            <td>62</td>
+                                            <td>2009/02/14</td>
+                                            <td>$452,500</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Yuri Berry</td>
+                                            <td>Chief Marketing Officer (CMO)</td>
+                                            <td>New York</td>
+                                            <td>40</td>
+                                            <td>2009/06/25</td>
+                                            <td>$675,000</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Zenaida Frank</td>
+                                            <td>Software Engineer</td>
+                                            <td>New York</td>
+                                            <td>63</td>
+                                            <td>2010/01/04</td>
+                                            <td>$125,250</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Zorita Serrano</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>56</td>
+                                            <td>2012/06/01</td>
+                                            <td>$115,000</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                            </div><div class="dataTables_scrollFoot" style="overflow: hidden; border: 0px none; width: 100%;">
+                                <div class="dataTables_scrollFootInner" style="width: 929.75px; padding-right: 8px;">
+                                    <table class="table table-striped gy-5 gs-7 dataTable" style="margin-left: 0px; width: 929.75px;">
+                                        <tfoot>
+                                            <tr class="border-top fw-semibold fs-6 text-gray-800"><th rowspan="1" colspan="1" style="width: 169.917px;">Name</th><th rowspan="1" colspan="1" style="width: 247.567px;">Position</th><th rowspan="1" colspan="1" style="width: 124.15px;">Office</th><th rowspan="1" colspan="1" style="width: 39.4167px;">Age</th><th rowspan="1" colspan="1" style="width: 101.367px;">Start date</th><th rowspan="1" colspan="1" style="width: 104.333px;">Salary</th></tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end::Block-->
+            <!--begin::Code-->
+            <div class="py-5">
+                <!--begin::Highlight-->
+                <div class="highlight">
+                    <button class="highlight-copy btn" data-bs-toggle="tooltip" data-kt-initialized="1">copy</button>
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50cf4" role="tab" aria-selected="true">HTML</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50cf6" role="tab" aria-selected="false" tabindex="-1">JAVASCRIPT</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="kt_highlight_6390cb2e50cf4" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-html" style="height:400px" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kt_datatable_vertical_scroll<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>table table-striped table-row-bordered gy-5 gs-7<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fw-semibold fs-6 text-gray-800<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Position<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Office<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Start date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Salary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tiger Nixon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>System Architect<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Edinburgh<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>61<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/04/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$320,800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Garrett Winters<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Accountant<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tokyo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>63<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/07/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$170,750<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tfoot</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>border-top fw-semibold fs-6 text-gray-800<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Position<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Office<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Start date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span>Salary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tfoot</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></code></pre>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="kt_highlight_6390cb2e50cf6" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#kt_datatable_vertical_scroll"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">DataTable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                                <span class="token string-property property">"scrollY"</span><span class="token operator">:</span> <span class="token string">"500px"</span><span class="token punctuation">,</span>
+                                <span class="token string-property property">"scrollCollapse"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                                <span class="token string-property property">"paging"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                                <span class="token string-property property">"dom"</span><span class="token operator">:</span> <span class="token string">"&lt;'table-responsive'tr&gt;"</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Highlight-->
+            </div>
+            <!--end::Code-->
+        </div>
+
+        <div class="py-10">
+            <h1 class="anchor fw-bold mb-5" id="horizontal-scroll" data-kt-scroll-offset="50">
+                <a href="#horizontal-scroll"></a>Horizontal Scroll
+            </h1>
+            <div class="py-5">
+                <div id="kt_datatable_horizontal_scroll_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div class="table-responsive">
+                        <div class="dataTables_scroll">
+                            <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;">
+                                <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1712.87px; padding-right: 0px;">
+                                    <table class="table table-striped gy-5 gs-7 dataTable no-footer" style="margin-left: 0px; width: 1712.87px;">
+                                        <thead>
+                                            <tr class="fw-semibold fs-6 text-gray-800"><th class="min-w-200px sorting sorting_asc" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 200px;" aria-sort="ascending" aria-label="First name: activate to sort column descending">First name</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px;" aria-label="Last name: activate to sort column ascending">Last name</th><th class="min-w-300px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 300px;" aria-label="Position: activate to sort column ascending">Position</th><th class="min-w-200px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 200px;" aria-label="Office: activate to sort column ascending">Office</th><th class="min-w-100px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 100px;" aria-label="Age: activate to sort column ascending">Age</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px;" aria-label="Start date: activate to sort column ascending">Start date</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px;" aria-label="Salary: activate to sort column ascending">Salary</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px;" aria-label="Extn.: activate to sort column ascending">Extn.</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 189.367px;" aria-label="E-mail: activate to sort column ascending">E-mail</th></tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;">
+                                <table id="kt_datatable_horizontal_scroll" class="table table-striped gy-5 gs-7 dataTable no-footer" aria-describedby="kt_datatable_horizontal_scroll_info" style="width: 1710px;">
+                                    <thead>
+                                        <tr class="fw-semibold fs-6 text-gray-800" style="height: 0px;"><th class="min-w-200px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">First name</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Last name</div></th><th class="min-w-300px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 300px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th class="min-w-200px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th class="min-w-100px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 100px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Extn.</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_horizontal_scroll" rowspan="1" colspan="1" style="width: 189.367px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">E-mail</div></th></tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Airi</td>
+                                            <td>Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td>$162,700</td>
+                                            <td>5407</td>
+                                            <td>a.satou@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Angelica</td>
+                                            <td>Ramos</td>
+                                            <td>Chief Executive Officer (CEO)</td>
+                                            <td>London</td>
+                                            <td>47</td>
+                                            <td>2009/10/09</td>
+                                            <td>$1,200,000</td>
+                                            <td>5797</td>
+                                            <td>a.ramos@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Ashton</td>
+                                            <td>Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009/01/12</td>
+                                            <td>$86,000</td>
+                                            <td>1562</td>
+                                            <td>a.cox@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Bradley</td>
+                                            <td>Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td>41</td>
+                                            <td>2012/10/13</td>
+                                            <td>$132,000</td>
+                                            <td>2558</td>
+                                            <td>b.greer@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Brenden</td>
+                                            <td>Wagner</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>28</td>
+                                            <td>2011/06/07</td>
+                                            <td>$206,850</td>
+                                            <td>1314</td>
+                                            <td>b.wagner@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Brielle</td>
+                                            <td>Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012/12/02</td>
+                                            <td>$372,000</td>
+                                            <td>4804</td>
+                                            <td>b.williamson@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Caesar</td>
+                                            <td>Vance</td>
+                                            <td>Pre-Sales Support</td>
+                                            <td>New York</td>
+                                            <td>21</td>
+                                            <td>2011/12/12</td>
+                                            <td>$106,450</td>
+                                            <td>8330</td>
+                                            <td>c.vance@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Cedric</td>
+                                            <td>Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012/03/29</td>
+                                            <td>$433,060</td>
+                                            <td>6224</td>
+                                            <td>c.kelly@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Charde</td>
+                                            <td>Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008/10/16</td>
+                                            <td>$470,600</td>
+                                            <td>6741</td>
+                                            <td>c.marshall@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Colleen</td>
+                                            <td>Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009/09/15</td>
+                                            <td>$205,500</td>
+                                            <td>2360</td>
+                                            <td>c.hurst@datatables.net</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_datatable_horizontal_scroll_length"><label><select name="kt_datatable_horizontal_scroll_length" aria-controls="kt_datatable_horizontal_scroll" class="form-select form-select-sm form-select-solid"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div><div class="dataTables_info" id="kt_datatable_horizontal_scroll_info" role="status" aria-live="polite">Showing 1 to 10 of 29 records</div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_horizontal_scroll_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_datatable_horizontal_scroll_previous"><a href="#" aria-controls="kt_datatable_horizontal_scroll" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable_horizontal_scroll" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_horizontal_scroll" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_horizontal_scroll" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item next" id="kt_datatable_horizontal_scroll_next"><a href="#" aria-controls="kt_datatable_horizontal_scroll" data-dt-idx="4" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div>
+                </div>
+            </div>
+            <!--end::Block-->
+            <!--begin::Code-->
+            <div class="py-5">
+                <!--begin::Highlight-->
+                <div class="highlight">
+                    <button class="highlight-copy btn" data-bs-toggle="tooltip" data-kt-initialized="1">copy</button>
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50d4c" role="tab" aria-selected="true">HTML</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50d4e" role="tab" aria-selected="false" tabindex="-1">JAVASCRIPT</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="kt_highlight_6390cb2e50d4c" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-html" style="height:400px" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kt_datatable_horizontal_scroll<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>table table-striped table-row-bordered gy-5 gs-7<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fw-semibold fs-6 text-gray-800<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Last name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-300px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Position<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Office<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-100px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Start date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Salary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Extn.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>E-mail<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tiger<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Nixon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>System Architect<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Edinburgh<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>61<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/04/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$320,800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>5421<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>t.nixon@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Garrett<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Winters<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Accountant<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tokyo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>63<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/07/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$170,750<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>8422<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>g.winters@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></code></pre>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="kt_highlight_6390cb2e50d4e" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#kt_datatable_horizontal_scroll"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">DataTable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                                <span class="token string-property property">"scrollX"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Highlight-->
+            </div>
+            <!--end::Code-->
+        </div>
+
+        <div class="py-10">
+            <!--begin::Heading-->
+            <h1 class="anchor fw-bold mb-5" id="both-scroll" data-kt-scroll-offset="50">
+                <a href="#both-scroll"></a>Both Scrolls
+            </h1>
+            <!--end::Heading-->
+            <!--begin::Block-->
+            <div class="py-5">
+                In this example you can see DataTables doing
+                both horizontal and vertical scrolling at the same time. Note also that
+                pagination is enabled in this example, and the scrolling accounts for
+                this.
+            </div>
+            <!--end::Block-->
+            <!--begin::Block-->
+            <div class="py-5">
+                <div id="kt_datatable_both_scrolls_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div class="table-responsive">
+                        <div class="dataTables_scroll">
+                            <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;">
+                                <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1712.87px; padding-right: 8px;">
+                                    <table class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer" style="margin-left: 0px; width: 1712.87px;">
+                                        <thead>
+                                            <tr class="fw-semibold fs-6 text-gray-800"><th class="min-w-200px sorting sorting_asc" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px;" aria-sort="ascending" aria-label="First name: activate to sort column descending">First name</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Last name: activate to sort column ascending">Last name</th><th class="min-w-300px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 300px;" aria-label="Position: activate to sort column ascending">Position</th><th class="min-w-200px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px;" aria-label="Office: activate to sort column ascending">Office</th><th class="min-w-100px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 100px;" aria-label="Age: activate to sort column ascending">Age</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Start date: activate to sort column ascending">Start date</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Salary: activate to sort column ascending">Salary</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Extn.: activate to sort column ascending">Extn.</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 189.367px;" aria-label="E-mail: activate to sort column ascending">E-mail</th></tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 300px; height: 300px;">
+                                <table id="kt_datatable_both_scrolls" class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer" aria-describedby="kt_datatable_both_scrolls_info" style="width: 1710px;">
+                                    <thead>
+                                        <tr class="fw-semibold fs-6 text-gray-800" style="height: 0px;"><th class="min-w-200px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">First name</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Last name</div></th><th class="min-w-300px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 300px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th class="min-w-200px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th class="min-w-100px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 100px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Extn.</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 189.367px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">E-mail</div></th></tr>
+                                    </thead>
+
+                                    <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <tr class="odd">
+                                            <td class="sorting_1">Airi</td>
+                                            <td>Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td>$162,700</td>
+                                            <td>5407</td>
+                                            <td>a.satou@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Angelica</td>
+                                            <td>Ramos</td>
+                                            <td>Chief Executive Officer (CEO)</td>
+                                            <td>London</td>
+                                            <td>47</td>
+                                            <td>2009/10/09</td>
+                                            <td>$1,200,000</td>
+                                            <td>5797</td>
+                                            <td>a.ramos@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Ashton</td>
+                                            <td>Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009/01/12</td>
+                                            <td>$86,000</td>
+                                            <td>1562</td>
+                                            <td>a.cox@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Bradley</td>
+                                            <td>Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td>41</td>
+                                            <td>2012/10/13</td>
+                                            <td>$132,000</td>
+                                            <td>2558</td>
+                                            <td>b.greer@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Brenden</td>
+                                            <td>Wagner</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>28</td>
+                                            <td>2011/06/07</td>
+                                            <td>$206,850</td>
+                                            <td>1314</td>
+                                            <td>b.wagner@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Brielle</td>
+                                            <td>Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012/12/02</td>
+                                            <td>$372,000</td>
+                                            <td>4804</td>
+                                            <td>b.williamson@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Caesar</td>
+                                            <td>Vance</td>
+                                            <td>Pre-Sales Support</td>
+                                            <td>New York</td>
+                                            <td>21</td>
+                                            <td>2011/12/12</td>
+                                            <td>$106,450</td>
+                                            <td>8330</td>
+                                            <td>c.vance@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Cedric</td>
+                                            <td>Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012/03/29</td>
+                                            <td>$433,060</td>
+                                            <td>6224</td>
+                                            <td>c.kelly@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1">Charde</td>
+                                            <td>Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008/10/16</td>
+                                            <td>$470,600</td>
+                                            <td>6741</td>
+                                            <td>c.marshall@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1">Colleen</td>
+                                            <td>Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009/09/15</td>
+                                            <td>$205,500</td>
+                                            <td>2360</td>
+                                            <td>c.hurst@datatables.net</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_datatable_both_scrolls_length"><label><select name="kt_datatable_both_scrolls_length" aria-controls="kt_datatable_both_scrolls" class="form-select form-select-sm form-select-solid"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div><div class="dataTables_info" id="kt_datatable_both_scrolls_info" role="status" aria-live="polite">Showing 1 to 10 of 29 records</div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_both_scrolls_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_datatable_both_scrolls_previous"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item next" id="kt_datatable_both_scrolls_next"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="4" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div>
+                </div>
+            </div>
+            <!--end::Block-->
+            <!--begin::Code-->
+            <div class="py-5">
+                <!--begin::Highlight-->
+                <div class="highlight">
+                    <button class="highlight-copy btn" data-bs-toggle="tooltip" data-kt-initialized="1">copy</button>
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50dba" role="tab" aria-selected="true">HTML</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50dbc" role="tab" aria-selected="false" tabindex="-1">JAVASCRIPT</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="kt_highlight_6390cb2e50dba" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-html" style="height:400px" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kt_datatable_both_scrolls<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>table table-striped table-row-bordered gy-5 gs-7<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fw-semibold fs-6 text-gray-800<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Last name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-300px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Position<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Office<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-100px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Start date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Salary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Extn.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>E-mail<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tiger<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Nixon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>System Architect<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Edinburgh<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>61<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/04/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$320,800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>5421<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>t.nixon@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Garrett<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Winters<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Accountant<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tokyo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>63<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/07/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$170,750<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>8422<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>g.winters@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></code></pre>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="kt_highlight_6390cb2e50dbc" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#kt_datatable_both_scrolls"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">DataTable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                                <span class="token string-property property">"scrollY"</span><span class="token operator">:</span> <span class="token number">300</span><span class="token punctuation">,</span>
+                                <span class="token string-property property">"scrollX"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Highlight-->
+            </div>
+            <!--end::Code-->
+        </div>
+
+        <div class="pt-10">
+            <!--begin::Heading-->
+            <h1 class="anchor fw-bold mb-5" id="fixed-columns" data-kt-scroll-offset="50">
+                <a href="#fixed-columns"></a>Fixed Columns
+            </h1>
+            <!--end::Heading-->
+            <!--begin::Block-->
+            <div class="py-5">
+                FixedColumns allows more than one column to be frozen into place using the
+                <code>fixedColumns.left</code>parameter. The example below shows two columns fixed.
+            </div>
+            <!--end::Block-->
+            <!--begin::Block-->
+            <div class="py-5">
+                <div id="kt_datatable_fixed_columns_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div class="table-responsive">
+                        <div class="dataTables_scroll dtfc-has-left" style="position: relative;">
+                            <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;">
+                                <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1712.87px; padding-right: 8px;">
+                                    <table class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer" style="margin-left: 0px; width: 1712.87px;">
+                                        <thead>
+                                            <tr class="fw-semibold fs-6 text-gray-800"><th class="min-w-200px sorting sorting_asc dtfc-fixed-left" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 200px; left: 0px; position: sticky;" aria-sort="ascending" aria-label="First name: activate to sort column descending">First name</th><th class="min-w-150px sorting dtfc-fixed-left" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px; left: 222.75px; position: sticky;" aria-label="Last name: activate to sort column ascending">Last name</th><th class="min-w-300px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 300px;" aria-label="Position: activate to sort column ascending">Position</th><th class="min-w-200px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 200px;" aria-label="Office: activate to sort column ascending">Office</th><th class="min-w-100px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 100px;" aria-label="Age: activate to sort column ascending">Age</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px;" aria-label="Start date: activate to sort column ascending">Start date</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px;" aria-label="Salary: activate to sort column ascending">Salary</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px;" aria-label="Extn.: activate to sort column ascending">Extn.</th><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 189.367px;" aria-label="E-mail: activate to sort column ascending">E-mail</th></tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 300px;">
+                                <table id="kt_datatable_fixed_columns" class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer dtfc-has-left" aria-describedby="kt_datatable_fixed_columns_info" style="width: 1710px;">
+                                    <thead>
+                                        <tr class="fw-semibold fs-6 text-gray-800" style="height: 0px;"><th class="min-w-200px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">First name</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Last name</div></th><th class="min-w-300px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 300px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Position</div></th><th class="min-w-200px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Office</div></th><th class="min-w-100px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 100px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Age</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Start date</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Salary</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 150px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Extn.</div></th><th class="min-w-150px sorting" aria-controls="kt_datatable_fixed_columns" rowspan="1" colspan="1" style="width: 189.367px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">E-mail</div></th></tr>
+                                    </thead>
+
+                                    <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <tr class="odd">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Airi</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td>$162,700</td>
+                                            <td>5407</td>
+                                            <td>a.satou@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Angelica</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Ramos</td>
+                                            <td>Chief Executive Officer (CEO)</td>
+                                            <td>London</td>
+                                            <td>47</td>
+                                            <td>2009/10/09</td>
+                                            <td>$1,200,000</td>
+                                            <td>5797</td>
+                                            <td>a.ramos@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Ashton</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009/01/12</td>
+                                            <td>$86,000</td>
+                                            <td>1562</td>
+                                            <td>a.cox@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Bradley</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td>41</td>
+                                            <td>2012/10/13</td>
+                                            <td>$132,000</td>
+                                            <td>2558</td>
+                                            <td>b.greer@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Brenden</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Wagner</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td>28</td>
+                                            <td>2011/06/07</td>
+                                            <td>$206,850</td>
+                                            <td>1314</td>
+                                            <td>b.wagner@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Brielle</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012/12/02</td>
+                                            <td>$372,000</td>
+                                            <td>4804</td>
+                                            <td>b.williamson@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Caesar</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Vance</td>
+                                            <td>Pre-Sales Support</td>
+                                            <td>New York</td>
+                                            <td>21</td>
+                                            <td>2011/12/12</td>
+                                            <td>$106,450</td>
+                                            <td>8330</td>
+                                            <td>c.vance@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Cedric</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012/03/29</td>
+                                            <td>$433,060</td>
+                                            <td>6224</td>
+                                            <td>c.kelly@datatables.net</td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Charde</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008/10/16</td>
+                                            <td>$470,600</td>
+                                            <td>6741</td>
+                                            <td>c.marshall@datatables.net</td>
+                                        </tr>
+                                        <tr class="even">
+                                            <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">Colleen</td>
+                                            <td style="left: 222.75px; position: sticky;" class="dtfc-fixed-left">Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009/09/15</td>
+                                            <td>$205,500</td>
+                                            <td>2360</td>
+                                            <td>c.hurst@datatables.net</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div><div style="bottom: 0px; display: block; position: absolute; width: 9px; right: 0px; top: 0px; height: 55.4667px;" class="dtfc-right-top-blocker"></div>
+                        </div>
+                    </div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_datatable_fixed_columns_length"><label><select name="kt_datatable_fixed_columns_length" aria-controls="kt_datatable_fixed_columns" class="form-select form-select-sm form-select-solid"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div><div class="dataTables_info" id="kt_datatable_fixed_columns_info" role="status" aria-live="polite">Showing 1 to 10 of 29 records</div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_fixed_columns_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_datatable_fixed_columns_previous"><a href="#" aria-controls="kt_datatable_fixed_columns" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable_fixed_columns" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_fixed_columns" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_fixed_columns" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item next" id="kt_datatable_fixed_columns_next"><a href="#" aria-controls="kt_datatable_fixed_columns" data-dt-idx="4" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div>
+                </div>
+            </div>
+            <!--end::Block-->
+            <!--begin::Code-->
+            <div class="py-5">
+                <!--begin::Highlight-->
+                <div class="highlight">
+                    <button class="highlight-copy btn" data-bs-toggle="tooltip" data-kt-initialized="1">copy</button>
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50e0e" role="tab" aria-selected="true">HTML</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#kt_highlight_6390cb2e50e0f" role="tab" aria-selected="false" tabindex="-1">JAVASCRIPT</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="kt_highlight_6390cb2e50e0e" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-html" style="height:400px" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>kt_datatable_fixed_columns<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>table table-striped table-row-bordered gy-5 gs-7<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fw-semibold fs-6 text-gray-800<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Last name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-300px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Position<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-200px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Office<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-100px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Start date<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Salary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Extn.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>min-w-150px<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>E-mail<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tiger<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Nixon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>System Architect<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Edinburgh<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>61<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/04/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$320,800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>5421<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>t.nixon@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Garrett<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Winters<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Accountant<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Tokyo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>63<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2011/07/25<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>$170,750<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>8422<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>g.winters@datatables.net<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></code></pre>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="kt_highlight_6390cb2e50e0f" role="tabpanel">
+                            <div class="highlight-code">
+                                <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#kt_datatable_fixed_columns"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">DataTable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                                <span class="token literal-property property">scrollY</span><span class="token operator">:</span>        <span class="token string">"300px"</span><span class="token punctuation">,</span>
+                                <span class="token literal-property property">scrollX</span><span class="token operator">:</span>        <span class="token boolean">true</span><span class="token punctuation">,</span>
+                                <span class="token literal-property property">scrollCollapse</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                                <span class="token literal-property property">fixedColumns</span><span class="token operator">:</span>   <span class="token punctuation">{</span>
+                                <span class="token literal-property property">left</span><span class="token operator">:</span> <span class="token number">2</span>
+                                <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Highlight-->
+            </div>
+            <!--end::Code-->
+        </div>
+    </div>
+</div>
+
+<div class="ms-7 flex-row-auto w-lg-200px">
+    <!--begin::Sidebar nav-->
+    <div class="card card-flush d-none d-lg-flex" data-kt-sticky="true" data-kt-sticky-name="sidebar-navs" data-kt-sticky-offset="{default: false, lg: 200}" data-kt-sticky-width="200px" data-kt-sticky-animation="false" data-kt-sticky-left="auto" data-kt-sticky-top="25px" data-kt-sticky-zindex="95" style="z-index: 95; position: fixed; top: 25px; width: 200px; left: 1514px;">
+        <!--begin::Card body-->
+        <div class="card-body px-0 px-3 py-6">
+            <!--begin::Menu-->
+            <ul id="kt_sidebar_nav" class="nav nav-flush menu menu-column menu-title-gray-700 menu-bullet-gray-300 menu-state-primary fw-semibold fs-6">
+                <!--begin::Item-->
+                <li class="menu-item py-2 px-3">
+                    <!--begin::Link-->
+                    <a href="#zero-configuration" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                        <span class="menu-bullet">
+                            <span class="bullet bullet-dot"></span>
+                        </span>
+                        <span class="menu-title">Zero Configuration</span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <!--end::Item-->
+                <!--begin::Item-->
+                <li class="menu-item py-2 px-3">
+                    <!--begin::Link-->
+                    <a href="#vertical-scroll" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                        <span class="menu-bullet">
+                            <span class="bullet bullet-dot"></span>
+                        </span>
+                        <span class="menu-title">Vertical Scroll</span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <!--end::Item-->
+                <!--begin::Item-->
+                <li class="menu-item py-2 px-3">
+                    <!--begin::Link-->
+                    <a href="#horizontal-scroll" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                        <span class="menu-bullet">
+                            <span class="bullet bullet-dot"></span>
+                        </span>
+                        <span class="menu-title">Horizontal Scroll</span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <!--end::Item-->
+                <!--begin::Item-->
+                <li class="menu-item py-2 px-3">
+                    <!--begin::Link-->
+                    <a href="#both-scroll" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                        <span class="menu-bullet">
+                            <span class="bullet bullet-dot"></span>
+                        </span>
+                        <span class="menu-title">Both Scrolls</span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <!--end::Item-->
+                <!--begin::Item-->
+                <li class="menu-item py-2 px-3">
+                    <!--begin::Link-->
+                    <a href="#fixed-columns" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                        <span class="menu-bullet">
+                            <span class="bullet bullet-dot"></span>
+                        </span>
+                        <span class="menu-title">Fixed Columns</span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <!--end::Item-->
+            </ul>
+            <!--end::Menu-->
+        </div>
+        <!--end::Card body-->
+    </div>
+    <!--end::Sidebar nav-->
+</div>
+<!--end::Sidebar wrapper-->
+    </div>
+<!--end::Container-->
+</div>
+<!--end::Content-->
+<!--begin::Footer-->
+<div class="py-4 d-flex flex-lg-column py-6" id="kt_footer">
+    <!--begin::Container-->
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <!--begin::Copyright-->
+        <div class="text-dark order-2 order-md-1">
+            <span class="text-muted fw-semibold me-1">2022©</span>
+            <a href="https://keenthemes.com/" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+        </div>
+        <!--end::Copyright-->
+        <!--begin::Menu-->
+        <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1 align-items-center mb-3 mb-md-0">
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://www.youtube.com/c/KeenThemesTuts/videos" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Youtube" src="~/Sccript/Table/youtube.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://github.com/KeenthemesHub" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Github" src="~/Sccript/Table/github.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://twitter.com/keenthemes" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Twitter" src="~/Sccript/Table/twitter.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://www.instagram.com/keenthemes" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Instagram" src="~/Sccript/Table/instagram.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://www.facebook.com/keenthemes" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Facebook" src="~/Sccript/Table/facebook.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+            <!--begin::Menu item-->
+            <li class="menu-item">
+                <!--begin::Menu link-->
+                <a href="https://dribbble.com/keenthemes" target="_blank" class="menu-link px-3">
+                    <img alt="Keenthemes Dribbble" src="~/Sccript/Table/dribbble.svg" class="h-20px">
+                </a>
+                <!--end::Menu link-->
+            </li>
+            <!--end::Menu link-->
+        </ul>
+        <!--end::Menu-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::Footer-->
+				</div>
+<!--end::Wrapper-->
+			</div>
+<!--end::Page-->
+		</div>
+<!--end::Main-->
+<!--begin::Engage drawers-->
+<!--begin::Help drawer-->
+<div id="kt_help" class="bg-body drawer drawer-end" data-kt-drawer="true" data-kt-drawer-name="help" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'350px', 'md': '525px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_help_toggle" data-kt-drawer-close="#kt_help_close" style="width: 525px !important;">
+    <!--begin::Card-->
+    <div class="card shadow-none rounded-0 w-100">
+        <!--begin::Header-->
+        <div class="card-header" id="kt_help_header">
+            <h5 class="card-title fw-semibold text-gray-600">Learn &amp; Get Inspired</h5>
+            <div class="card-toolbar">
+                <button type="button" class="btn btn-sm btn-icon explore-btn-dismiss me-n5" id="kt_help_close">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </button>
+            </div>
+        </div>
+        <!--end::Header-->
+        <!--begin::Body-->
+        <div class="card-body" id="kt_help_body">
+            <!--begin::Content-->
+            <div id="kt_help_scroll" class="hover-scroll-overlay-y" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_help_body" data-kt-scroll-dependencies="#kt_help_header" data-kt-scroll-offset="5px" style="height: 799px;">
+                <!--begin::Support-->
+                <div class="rounded border border-dashed border-gray-300 p-6 p-lg-8 mb-10">
+                    <!--begin::Heading-->
+                    <h2 class="fw-bold mb-5">
+                        Support at
+                        <a href="https://devs.keenthemes.com/" class="">devs.keenthemes.com</a>
+                    </h2>
+                    <!--end::Heading-->
+                    <!--begin::Description-->
+                    <div class="fs-5 fw-semibold mb-5">
+                        <span class="text-gray-500">Join our developers community to find answer to your question and help others.</span>
+                        <a class="explore-link d-none" href="https://keenthemes.com/licensing">FAQs</a>
+                    </div>
+                    <!--end::Description-->
+                    <!--begin::Link-->
+                    <a href="https://devs.keenthemes.com/" class="btn btn-lg explore-btn-primary w-100">Get Support</a>
+                    <!--end::Link-->
+                </div>
+                <!--end::Support-->
+                <!--begin::Link-->
+                <div class="d-flex align-items-center mb-7">
+                    <!--begin::Icon-->
+                    <div class="d-flex flex-center w-50px h-50px w-lg-75px h-lg-75px flex-shrink-0 rounded bg-light-danger">
+                        <!--begin::Svg Icon | path: icons/duotune/electronics/elc009.svg-->
+                        <span class="svg-icon svg-icon-danger svg-icon-2x svg-icon-lg-3x">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 9V8C13 7.4 13.4 7 14 7H15C16.7 7 18 5.7 18 4V3C18 2.4 17.6 2 17 2C16.4 2 16 2.4 16 3V4C16 4.6 15.6 5 15 5H14C12.3 5 11 6.3 11 8V9H13Z" fill="currentColor"></path>
+                                <path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V10C2 9.4 2.4 9 3 9H21C21.6 9 22 9.4 22 10V21C22 21.6 21.6 22 21 22ZM5 12C4.4 12 4 12.4 4 13C4 13.6 4.4 14 5 14C5.6 14 6 13.6 6 13C6 12.4 5.6 12 5 12ZM8 12C7.4 12 7 12.4 7 13C7 13.6 7.4 14 8 14C8.6 14 9 13.6 9 13C9 12.4 8.6 12 8 12ZM11 12C10.4 12 10 12.4 10 13C10 13.6 10.4 14 11 14C11.6 14 12 13.6 12 13C12 12.4 11.6 12 11 12ZM14 12C13.4 12 13 12.4 13 13C13 13.6 13.4 14 14 14C14.6 14 15 13.6 15 13C15 12.4 14.6 12 14 12ZM9 15C8.4 15 8 15.4 8 16C8 16.6 8.4 17 9 17C9.6 17 10 16.6 10 16C10 15.4 9.6 15 9 15ZM12 15C11.4 15 11 15.4 11 16C11 16.6 11.4 17 12 17C12.6 17 13 16.6 13 16C13 15.4 12.6 15 12 15ZM15 15C14.4 15 14 15.4 14 16C14 16.6 14.4 17 15 17C15.6 17 16 16.6 16 16C16 15.4 15.6 15 15 15ZM19 18C18.4 18 18 18.4 18 19C18 19.6 18.4 20 19 20C19.6 20 20 19.6 20 19C20 18.4 19.6 18 19 18ZM7 19C7 18.4 6.6 18 6 18H5C4.4 18 4 18.4 4 19C4 19.6 4.4 20 5 20H6C6.6 20 7 19.6 7 19ZM7 16C7 15.4 6.6 15 6 15H5C4.4 15 4 15.4 4 16C4 16.6 4.4 17 5 17H6C6.6 17 7 16.6 7 16ZM17 14H19C19.6 14 20 13.6 20 13C20 12.4 19.6 12 19 12H17C16.4 12 16 12.4 16 13C16 13.6 16.4 14 17 14ZM18 17H19C19.6 17 20 16.6 20 16C20 15.4 19.6 15 19 15H18C17.4 15 17 15.4 17 16C17 16.6 17.4 17 18 17ZM17 19C17 18.4 16.6 18 16 18H9C8.4 18 8 18.4 8 19C8 19.6 8.4 20 9 20H16C16.6 20 17 19.6 17 19Z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <!--end::Svg Icon-->
+                    </div>
+                    <!--end::Icon-->
+                    <!--begin::Info-->
+                    <div class="d-flex flex-stack flex-grow-1 ms-4 ms-lg-6">
+                        <!--begin::Wrapper-->
+                        <div class="d-flex flex-column me-2 me-lg-5">
+                            <!--begin::Title-->
+                            <a href="https://preview.keenthemes.com/html/craft/docs/getting-started/changelog" class="text-dark text-hover-primary fw-bold fs-6 fs-lg-4 mb-1">What's New ?</a>
+                            <!--end::Title-->
+                            <!--begin::Description-->
+                            <div class="text-muted fw-semibold fs-7 fs-lg-6">Latest features and improvements added with our users feedback in mind.</div>
+                            <!--end::Description-->
+                        </div>
+                        <!--end::Wrapper-->
+                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
+                        <span class="svg-icon svg-icon-gray-400 svg-icon-2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor"></rect>
+                                <path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <!--end::Svg Icon-->
+                    </div>
+                    <!--end::Info-->
+                </div>
+                <!--end::Link-->
+            </div>
+            <!--end::Content-->
+        </div>
+        <!--end::Body-->
+    </div>
+    <!--end::Card-->
+</div>
+<script src="~/Sccript/Table/plugins.bundle.js"></script>
+<script src="~/Sccript/Table/scripts.bundle.js"></script>
+<script src="~/Sccript/Table/documentation.js"></script>
+<script src="~/Sccript/Table/search.js"></script>
+<script src="~/Sccript/Table/prismjs.bundle.js"></script>
+<script src="~/Sccript/Table/datatables.bundle.js"></script>
+<script src="~/Sccript/Table/basic.js"></script>
+

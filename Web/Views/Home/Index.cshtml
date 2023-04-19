@@ -1,0 +1,325 @@
+﻿@model IRAT.Inject.Model.Class.Tranactions
+@{
+    ViewBag.Title = "Home Page";
+}
+@{ var i = 1;}
+@{
+    ViewBag.Title = "Home Page";
+}
+@*<link href="~/Sccript/Table/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/Sccript/Table/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/Sccript/Table/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/Sccript/style.bundle.css" rel="stylesheet" type="text/css" />*@
+
+<div class="post fs-6 d-flex flex-column-fluid" id="kt_post">
+    <div class="container-xxl">
+        <div class="card card-flush">
+            <div class="card-header align-items-center py-5 gap-2 gap-md-5">
+                <div class="card-title">
+                    <div class="d-flex align-items-center position-relative my-1">
+                        <span class="svg-icon svg-icon-1 position-absolute ms-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+                                <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
+                            </svg>
+                        </span>
+                        <input type="text" data-kt-ecommerce-product-filter="search" class="form-control form-controls-sm form-control-solid w-250px ps-14" placeholder="Search Product" />
+                    </div>
+                </div>
+                <div class="card-toolbar">
+                    <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+                        <button type="button" class="btn btn-sm btn-light-primary me-3" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                            <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0759 3H4.72777C3.95892 3 3.47768 3.83148 3.86067 4.49814L8.56967 12.6949C9.17923 13.7559 9.5 14.9582 9.5 16.1819V19.5072C9.5 20.2189 10.2223 20.7028 10.8805 20.432L13.8805 19.1977C14.2553 19.0435 14.5 18.6783 14.5 18.273V13.8372C14.5 12.8089 14.8171 11.8056 15.408 10.964L19.8943 4.57465C20.3596 3.912 19.8856 3 19.0759 3Z" fill="currentColor" />
+                                </svg>
+                            </span>
+                            <!--end::Svg Icon-->Filter
+                        </button>
+                        <div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px" data-kt-menu="true">
+                            <div class="px-7 py-5">
+                                <div class="fs-5 text-dark fw-bold">Filter Options</div>
+                            </div>
+                            <div class="separator border-gray-200"></div>
+                            <div class="px-7 py-5" data-kt-user-table-filter="form">
+                                <div class="mb-10">
+                                    <div class="d-flex align-items-center position-relative my-1">
+                                        <span class="svg-icon svg-icon-1 position-absolute ms-4">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+                                                <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" data-kt-ecommerce-product-filter="search" class="form-control form-control-solid w-0px ps-14" placeholder="Search Product" />
+                                    </div>
+                                </div>
+                                <div class="mb-10">
+                                    <label class="form-label fs-6 fw-semibold">Role:</label>
+                                    <select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Select option" data-allow-clear="true" data-kt-user-table-filter="role" data-hide-search="true">
+                                        <option></option>
+                                        <option value="Administrator">Administrator</option>
+                                        <option value="Analyst">Analyst</option>
+                                        <option value="Developer">Developer</option>
+                                        <option value="Support">Support</option>
+                                        <option value="Trial">Trial</option>
+                                    </select>
+                                </div>
+                                <div class="mb-10">
+                                    <label class="form-label fs-6 fw-semibold">Two Step Verification:</label>
+                                    <select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Select option" data-allow-clear="true" data-kt-user-table-filter="two-step" data-hide-search="true">
+                                        <option></option>
+                                        <option value="Enabled">Enabled</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="reset" class="btn btn-light btn-active-light-primary fw-semibold me-2 px-6" data-kt-menu-dismiss="true" data-kt-user-table-filter="reset">Reset</button>
+                                    <button type="submit" class="btn btn-primary fw-semibold px-6" data-kt-menu-dismiss="true" data-kt-user-table-filter="filter">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_export_users">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr078.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect opacity="0.3" x="12.75" y="4.25" width="12" height="2" rx="1" transform="rotate(90 12.75 4.25)" fill="currentColor" />
+                                    <path d="M12.0573 6.11875L13.5203 7.87435C13.9121 8.34457 14.6232 8.37683 15.056 7.94401C15.4457 7.5543 15.4641 6.92836 15.0979 6.51643L12.4974 3.59084C12.0996 3.14332 11.4004 3.14332 11.0026 3.59084L8.40206 6.51643C8.0359 6.92836 8.0543 7.5543 8.44401 7.94401C8.87683 8.37683 9.58785 8.34458 9.9797 7.87435L11.4427 6.11875C11.6026 5.92684 11.8974 5.92684 12.0573 6.11875Z" fill="currentColor" />
+                                    <path opacity="0.3" d="M18.75 8.25H17.75C17.1977 8.25 16.75 8.69772 16.75 9.25C16.75 9.80228 17.1977 10.25 17.75 10.25C18.3023 10.25 18.75 10.6977 18.75 11.25V18.25C18.75 18.8023 18.3023 19.25 17.75 19.25H5.75C5.19772 19.25 4.75 18.8023 4.75 18.25V11.25C4.75 10.6977 5.19771 10.25 5.75 10.25C6.30229 10.25 6.75 9.80228 6.75 9.25C6.75 8.69772 6.30229 8.25 5.75 8.25H4.75C3.64543 8.25 2.75 9.14543 2.75 10.25V19.25C2.75 20.3546 3.64543 21.25 4.75 21.25H18.75C19.8546 21.25 20.75 20.3546 20.75 19.25V10.25C20.75 9.14543 19.8546 8.25 18.75 8.25Z" fill="currentColor" />
+                                </svg>
+                            </span>
+                            <!--end::Svg Icon-->Export
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-end align-items-center d-none" data-kt-user-table-toolbar="selected">
+                        <div class="fw-bold me-5">
+                            <span class="me-2" data-kt-user-table-select="selected_count"></span>Selected
+                        </div>
+                        <button type="button" class="btn btn-danger" data-kt-user-table-select="delete_selected">Delete Selected</button>
+                    </div>
+                    <!--begin::Modal - Adjust Balance-->
+                    <div class="modal fade" id="kt_modal_export_users" tabindex="-1" aria-hidden="true">
+                        <!--begin::Modal dialog-->
+                        <div class="modal-dialog modal-dialog-centered mw-650px">
+                            <!--begin::Modal content-->
+                            <div class="modal-content">
+                                <!--begin::Modal header-->
+                                <div class="modal-header">
+                                    <!--begin::Modal title-->
+                                    <h2 class="fw-bold">Export</h2>
+                                    <!--end::Modal title-->
+                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
+                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+                                    <!--begin::Form-->
+                                    <form id="kt_modal_export_users_form" class="form" action="#">
+                                        <!--begin::Input group-->
+                                        <div class="fv-row mb-10">
+                                            <label class="fs-6 fw-semibold form-label mb-2">Select Roles:</label>
+                                            <select name="role" data-control="select2" data-placeholder="Select a role" data-hide-search="true" class="form-select form-select-solid fw-bold">
+                                                <option></option>
+                                                <option value="Administrator">Administrator</option>
+                                                <option value="Analyst">Analyst</option>
+                                            </select>
+                                            <!--end::Input-->
+                                        </div>
+                                        <!--begin::Input group-->
+                                        <div class="fv-row mb-10">
+                                            <label class="required fs-6 fw-semibold form-label mb-2">Select Export Format:</label>
+                                            <select name="format" data-control="select2" data-placeholder="Select a format" data-hide-search="true" class="form-select form-select-solid fw-bold">
+                                                <option></option>
+                                                <option value="excel">Excel</option>
+                                                <option value="pdf">PDF</option>
+                                                <option value="cvs">CVS</option>
+                                                <option value="zip">ZIP</option>
+                                            </select>
+                                            <!--end::Input-->
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-primary" data-kt-users-modal-action="submit">
+                                                <span class="indicator-label">Submit</span>
+                                                <span class="indicator-progress">
+                                                    Please wait...
+                                                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                                                </span>
+                                            </button>
+                                            <button type="reset" class="btn btn-light me-3" data-kt-users-modal-action="cancel">Discard</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!--end::Modal content-->
+                        </div>
+                        <!--end::Modal dialog-->
+                    </div>
+                    <!--end::Modal - New Card-->
+                </div>
+                @using (Html.BeginForm("search", "home", FormMethod.Post, new { @autocomplete = "off" }))
+                {
+                    <div class="card-toolbar flex-row-fluid justify-content-end gap-5">
+                        @*<div class="w-100 mw-150px">
+                                <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Status" data-kt-ecommerce-product-filter="status">
+                                    <option></option>
+                                    <option value="all">All</option>
+                                    <option value="published">Published</option>
+                                    <option value="scheduled">Scheduled</option>
+                                    <option value="inactive">Inactive</option>
+                                </select>
+                            </div>*@
+                        <div class="py-0">
+                            <div class="rounded border p-0">
+                                <div class="mb-0">
+                                    <input class="form-control form-control-sm form-control-solid" placeholder="Pick date rage" id="kt_daterangepicker_1" name="daterange" />
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-sm btn-light-primary">Search</button>
+                    </div>
+                }
+            </div>
+            <div class="card-body pt-0" style="position: relative; overflow: auto; max-height: 500px; width: 100%;" @*style="height:550px; width: 1230px; overflow-y:scroll"*@>
+
+                <div id="kt_datatable_both_scrolls_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                    <div class="table-responsive">
+                        <div class="dataTables_scroll">
+                            @*<div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;">
+                                    <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1712.87px; padding-right: 8px;">
+                                        <table class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer" style="margin-left: 0px; width: 1712.87px;">
+                                            <thead>
+                                                <tr class="fw-semibold fs-6 text-gray-800">
+                                                    <th class="min-w-200px sorting sorting_asc" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px;" aria-sort="ascending" aria-label="First name: activate to sort column descending">First name</th>
+                                                    <th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Last name: activate to sort column ascending">Last name</th>
+                                                    <th class="min-w-300px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 300px;" aria-label="Position: activate to sort column ascending">Position</th>
+                                                    <th class="min-w-200px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 200px;" aria-label="Office: activate to sort column ascending">Office</th>
+                                                    <th class="min-w-100px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 100px;" aria-label="Age: activate to sort column ascending">Age</th>
+                                                    <th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Start date: activate to sort column ascending">Start date</th>
+                                                    <th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Salary: activate to sort column ascending">Salary</th>
+                                                    <th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 150px;" aria-label="Extn.: activate to sort column ascending">Extn.</th>
+                                                    <th class="min-w-150px sorting" tabindex="0" aria-controls="kt_datatable_both_scrolls" rowspan="1" colspan="1" style="width: 189.367px;" aria-label="E-mail: activate to sort column ascending">E-mail</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>*@
+                            <div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 400px; height: 400px;">
+                                <table id="kt_datatable_both_scrolls" class="table table-striped table-row-bordered gy-5 gs-7 dataTable no-footer" aria-describedby="kt_datatable_both_scrolls_info" style="width: 1710px;">
+                                    <thead>
+                                        <tr class="fw-semibold fs-6 text-gray-800" style="height: 0px;">
+                                            <th class="min-w-10px">#</th>
+                                            @*<th class="text-end min-w-50px">Line Id</th>*@
+                                            <th class="text-end min-w-100px">Res-code</th>
+                                            <th class="text-end min-w-100px">Desc.</th>
+                                            @*<th class="text-end min-w-100px">Ship Date</th>*@
+                                            <th class="text-end min-w-100px">Created Date</th>
+                                            <th class="text-end min-w-100px">Update Date</th>
+                                            @*<th class="text-end min-w-100px">Head Id</th>*@
+                                            <th class="text-end min-w-100px">Qty</th>
+                                            <th class="text-end min-w-100px">Price</th>
+                                            <th class="text-end min-w-100px">Proc Date</th>
+                                            <th class="text-end min-w-100px">Trans Date</th>
+                                            <th class="text-end min-w-100px">Start Date</th>
+                                            <th class="text-end min-w-100px">Pickup Loc</th>
+                                            <th class="text-end min-w-100px">Pickup Zone</th>
+                                            <th class="text-end min-w-100px">TierName</th>
+                                            <th class="text-end min-w-100px">Profit</th>
+                                            <th class="text-end min-w-100px">Part Sold</th>
+                                            <th class="text-end min-w-100px">Supplier1</th>
+                                            <th class="text-end min-w-100px">Cost</th>
+                                            <th class="text-end min-w-100px">Supplier2</th>
+                                            <th class="text-end min-w-100px">Cost</th>
+                                            <th class="text-end min-w-100px">Supplier3</th>
+                                            <th class="text-end min-w-100px">Cost</th>
+                                            <th class="text-end min-w-100px">Supplier4</th>
+                                            <th class="text-end min-w-100px">Cost</th>
+                                            <th class="text-end min-w-100px">Supplier5</th>
+                                            <th class="text-end min-w-100px">Cost</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (Model != null)
+                                        {
+                                            foreach (var item in Model.data)
+                                            {
+                                                <tr>
+                                                    <td class="badge badge-primary">@(i++)</td>
+                                                    @*<td>@item.productId</td>*@
+                                                    <td class="text-end pe-0">@item.productNumber</td>
+                                                    <td class="text-end pe-0">@item.productName</td>
+                                                    @*<td>@item.billDate.ToString("yyyy-mm-dd hh:ss")</td>*@
+                                                    <td class="text-end pe-0">@item.createdDate.ToString("yyyy-mm-dd hh:ss")</td>
+                                                    <td class="text-end pe-0">@item.createdDate.ToString("yyyy-mm-dd hh:ss")</td>
+                                                    @*<td>@item.orderId</td>*@
+                                                    <td class="text-end pe-0">@item.productSold</td>
+                                                    <td class="text-end pe-0">@item.priceTotal</td>
+                                                    <td class="text-end pe-0">@item.orderStartDate.ToString("yyyy-mm-dd hh:ss")</td>
+                                                    <td class="text-end pe-0">@item.orderStartDate.ToString("yyyy-mm-dd hh:ss")</td>
+                                                    <td class="text-end pe-0">@item.orderStartDate.ToString("yyyy-mm-dd hh:ss")</td>
+                                                    <td class="text-end pe-0">@item.pickupLocation</td>
+                                                    <td class="text-end pe-0">@item.pickupZone</td>
+                                                    <td class="text-end pe-0">@item.tierName.name</td>
+                                                    <td class="text-end pe-0">@item.grossProfit</td>
+                                                    <td class="text-end pe-0">@item.participantSold</td>
+                                                    @foreach (IRAT.Inject.Model.MatchTable item2 in ViewBag.Lookup)
+                                                    {
+                                                        if (item2.ProductNumber > 0)
+                                                        {
+                                                            if (item.productNumber == item2.ProductNumber && item.pickupZone.Equals(item2.PickupZone) && item.tierName.name.Equals(item2.Tier.Description))
+                                                            {
+                                                                <td class="text-end pe-0">@item2.Supplier</td>
+                                                                <td class="text-end pe-0">@(Convert.ToDecimal(item2.Cost).ToString("C"))</td>
+                                                            }
+                                                        }
+                                                    }
+                                                </tr>
+                                            }
+                                        }
+                                        @*<tr class="odd">
+                                                <td class="sorting_1">Airi</td>
+                                                <td>Satou</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>33</td>
+                                                <td>2008/11/28</td>
+                                                <td>$162,700</td>
+                                                <td>5407</td>
+                                                <td>a.satou@datatables.net</td>
+                                            </tr>*@
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_datatable_both_scrolls_length"><label><select name="kt_datatable_both_scrolls_length" aria-controls="kt_datatable_both_scrolls" class="form-select form-select-sm form-select-solid"><option value="10" selected="selected">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div><div class="dataTables_info" id="kt_datatable_both_scrolls_info" role="status" aria-live="polite">Showing 1 to 10 of 29 records</div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_both_scrolls_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_datatable_both_scrolls_previous"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item next" id="kt_datatable_both_scrolls_next"><a href="#" aria-controls="kt_datatable_both_scrolls" data-dt-idx="4" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Resource/assets/plugins/global/plugins.bundle.js"></script>
+<script src="~/Resource/assets/js/scripts.bundle.js"></script>
+<script src="~/Resource/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="~/Resource/assets/js/custom/apps/ecommerce/catalog/products.js"></script>
+
+<script src="~/Resource/assets/js/custom/documentation/documentation.js"></script>
+<script src="~/Resource/assets/js/custom/documentation/search.js"></script>
+<script src="~/Resource/assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+<script src="~/Resource/assets/js/custom/documentation/forms/daterangepicker.js"></script>
+
+<script>
+    $("#kt_daterangepicker_1").daterangepicker();
+</script>
+
+<script src="~/Sccript/Table/plugins.bundle.js"></script>
+<script src="~/Sccript/Table/scripts.bundle.js"></script>
+<script src="~/Sccript/Table/documentation.js"></script>
+<script src="~/Sccript/Table/search.js"></script>
+<script src="~/Sccript/Table/prismjs.bundle.js"></script>
+<script src="~/Sccript/Table/datatables.bundle.js"></script>
+<script src="~/Sccript/Table/basic.js"></script>

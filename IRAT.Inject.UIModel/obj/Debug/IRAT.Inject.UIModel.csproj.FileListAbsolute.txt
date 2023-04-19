@@ -1,0 +1,6 @@
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\bin\Debug\IRAT.Inject.UIModel.dll
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\bin\Debug\IRAT.Inject.UIModel.pdb
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\obj\Debug\IRAT.Inject.UIModel.csprojAssemblyReference.cache
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\obj\Debug\IRAT.Inject.UIModel.csproj.CoreCompileInputs.cache
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\obj\Debug\IRAT.Inject.UIModel.dll
+C:\Users\Romerro.Gray\Desktop\Island Routes Applications\_Development\_Update Applications\IRAT.Inject\IRAT.Inject.UIModel\obj\Debug\IRAT.Inject.UIModel.pdb

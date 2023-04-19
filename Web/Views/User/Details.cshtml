@@ -1,0 +1,186 @@
+﻿@model IRAT.Inject.Model.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Location.Gid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location.Gid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PermissionGroup.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PermissionGroup.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lastname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lastname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Islocked)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Islocked)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastlockedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastlockedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoginStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoginStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FailedLoginAttempts)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FailedLoginAttempts)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastDateLogin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastDateLogin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastPasswordChangedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastPasswordChangedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IPAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IPAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Deleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Deleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UserId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
